@@ -52,14 +52,3 @@ html, body, .viewport {
     background:url(images/btn_google_signin_light_pressed_web.png);
     background-size: cover; 
 }
-
-/* Divided slant */
-.slanted {
-    -webkit-clip-path: polygon(100% 0, 0 0, 0% 100%,100% 0);
-    clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 0%);
-    background-image: url("images/rotunda.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height:100%;
-    width:100%;
-}

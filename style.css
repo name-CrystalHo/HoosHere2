@@ -1,0 +1,31 @@
+html,body{
+    font-family: Optimist,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar{
+    background-color: #051094 !important;
+    border-bottom-style: ridge;
+}
+.headertitle{
+    text-align: left;
+}
+.fa-solid fa-lightbulb{
+    width: 10px;
+    height: 10px;
+}
+.responsive {
+    width: 5%;
+    height: 5%;
+  }
+
+.navbar-nav mr-auto{
+    margin-left: 1%;
+}
+.input-group{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.input-group button{
+    background-color: rgb(249, 249, 249);
+}
