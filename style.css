@@ -34,5 +34,9 @@ html,body{
     height:50%;
 }
 .row{
+
     justify-content: center
+}
+.pfbutton{
+    margin-left: 75px;
 }

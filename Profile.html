@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="main.css">
+<h1>Profile Settings</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container" id="mode">
+        <div class="content">
+            <div class="profilePhoto">
+                <div class="image"><img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" alt="photo"></div>
+                <div class="name">
+                    <h1>Name & Pronouns</h1>
+                    <label for="fname">Name:</label><br/>
+                    <input type="text" id="name" name="name"><br/>
+                    <label for="fname">Pronouns:</label><br/>
+                    <input type="text" id="pronouns" name="pronouns">
+                    <h4>Major & Year</h4>
+                    <label for="fname">Major || Year:</label><br/>
+                    <input type="text" id="pronouns" name="pronouns">
+                    <style>
+                        h4 {text-align: center;}
+                    </style>
+
+                </div>
+            </div>
+            <hr>
+            <div class="followers">
+                <div class="f1 f">
+                    <h2>Classes</h2>
+                    <label for="fname">Course 1:</label><br/>
+                    <input type="text" id="classes" name="classes">
+                </div>
+                <div class="f2 f">
+                    <h2>Hobbies</h2>
+                    <label for="fname">Hobby 1:</label><br/>
+                    <input type="text" id="hobbies" name="hobbies">
+                </div>
+            </div>
+            <div class="options">
+                <button type="button" class="btn blue">Home</button>
+                <button type="button" class="btn white">Friends</button>
+            </div>
+            <div class="media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div id="theme">
+        <div class="line" id="slide">
+            <div id="leftCircle" onclick="goRightDoDark()"></div>
+            <div id="rightCircle" onclick="goLeftDoLight()"></div>
+    </div>
+</div>
