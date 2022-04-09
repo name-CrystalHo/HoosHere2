@@ -1,11 +1,12 @@
 .row {
 flex-direction: row;
+margin-left: 75px;
 }
 
 .btn{
     background-color: orange;
 }
 
-col{
-    margin-right: 10px;
+.column{
+    margin-right: 50px;
 }
