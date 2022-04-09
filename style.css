@@ -29,3 +29,6 @@ html,body{
 .input-group button{
     background-color: rgb(249, 249, 249);
 }
+.pfbutton{
+    margin-left: 75px;
+}
