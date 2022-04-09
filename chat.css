@@ -1,16 +1,4 @@
-body {
-    font-family: sans-serif !important;
-  }
-  .bg-funky	{
-    background: #FF1744;
-  }	
-  
-  .heading {
-    color: #fff;
-    margin: 30px;
-    font-weight: 600;
-  }
-  
+
   img {max-width: 100%;}
           .inbox_msg {
             border: 1px solid #c4c4c4;
