@@ -9,49 +9,46 @@ html, body, .viewport {
 
 
 .container{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-
+    background:  #051094;
     width: 100%;
     height: 100%;
 }
-.title {
-    font-size: 1000px;
-}
-/* LEFT CONTAINER */
-.left-container{
-    flex: 50%;
-    background: linear-gradient(180deg, #232D4B 42%, rgba(35, 45, 75, 0) 100%);
+
+.top-container{
+
     text-align: center;
     
 }
-.left-container .title{
+/* .top-container .title{
     color:#E57200;
     font-size: 70px;
     line-height: 96px;
     
+} */
+.top-container img{
+    height: 400px;
 }
-.left-container img{
-    margin: 5%;
-    height: 100px;
-    widows: inherit;
+.bottom-container{
+
+    text-align: center;
+    
 }
-/* GOOGLE LOGIN BUTTON */
-.left-container button{
+.bottom-container button{
     background:url(images/btn_google_signin_light_normal_web.png); 
     background-size: cover; 
     width: 200px;
     height: 50px;
-    margin-top:10%;
+    margin-top:3%;
     border:none;
     outline: none;
+    
 }
-.left-container button:hover{
+.bottom-container button:hover{
     background:url(images/btn_google_signin_light_focus_web.png); 
     background-size: cover; 
 }
-.left-container button:active{
+.bottom-container button:active{
     background:url(images/btn_google_signin_light_pressed_web.png);
     background-size: cover; 
 }
@@ -65,9 +62,4 @@ html, body, .viewport {
     background-size: 100% 100%;
     height:100%;
     width:100%;
-}
-/* RIGHT CONTAINER */
-.right-container{
-    flex:50%;
-    background: linear-gradient(180deg, #232D4B 42%, rgba(35, 45, 75, 0) 100%);
 }
